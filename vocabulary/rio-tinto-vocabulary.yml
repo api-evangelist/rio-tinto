@@ -1,0 +1,18 @@
+vocabulary: rio-tinto
+description: Vocabulary for Rio Tinto's mining and metals operations
+terms:
+  - term: Iron Ore
+    definition: Sedimentary rock from which metallic iron is economically extracted
+  - term: Bauxite
+    definition: Primary ore of aluminum, refined into alumina then smelted into aluminum
+  - term: Copper Concentrate
+    definition: Beneficiated copper ore prepared for smelting
+  - term: START
+    definition: Rio Tinto's product traceability program covering mine-to-product provenance
+  - term: Pilbara
+    definition: Western Australian region producing the majority of Rio Tinto iron ore
+dimensions:
+  - name: commodity
+    values: [IronOre, Aluminum, Copper, Diamonds, Lithium, Borates, TitaniumDioxide]
+  - name: lifecycle
+    values: [Exploration, Mining, Processing, Smelting, Marketing]

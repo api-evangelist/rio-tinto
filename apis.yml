@@ -7,11 +7,46 @@ tags:
   - Mining
   - Metals
   - Resources
-description: 'A British-Australian multinational mining and metals corporation and one of the world''s largest producers of iron ore, aluminum, copper, and diamonds. Operates mines, refineries, and smelters across 35 countries with a growing focus on materials critical to the energy transition.'
+  - Critical Minerals
+description: >-
+  Rio Tinto is a British-Australian multinational mining and metals
+  corporation and one of the world's largest producers of iron ore, aluminum,
+  copper, and diamonds. Rio Tinto does not publish a public developer API,
+  but operates supplier portals (Supplier Master Data Management and a
+  transactional platform) and a START traceability program. Its GitHub
+  presence is limited to a small number of internal forks (ai-sentry,
+  xpano).
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.riotinto.com/
+  - type: GitHubOrg
+    url: https://github.com/rio-tinto
+  - type: SupplierPortal
+    url: https://www.riotinto.com/suppliers
+  - type: Vocabulary
+    url: vocabulary/rio-tinto-vocabulary.yml
+  - type: Features
+    data:
+      - name: Iron Ore Production
+        description: Leading global producer of iron ore from Pilbara and other regions
+      - name: Aluminum and Bauxite
+        description: Integrated aluminum value chain from bauxite mining to smelting
+      - name: Copper and Diamonds
+        description: Copper concentrates and diamond production for global markets
+      - name: Energy-Transition Minerals
+        description: Lithium and other minerals critical to electrification
+      - name: START Traceability
+        description: Product traceability program for responsibly sourced metals
+  - type: UseCases
+    data:
+      - name: Supplier Onboarding
+        description: Rio Tinto maintains supplier master data and transactional portals
+      - name: Responsible Sourcing
+        description: START provides end-to-end traceability of materials from mine to product
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

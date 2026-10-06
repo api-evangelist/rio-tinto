@@ -39,10 +39,14 @@ description: >-
   presence is limited to a small number of internal forks (ai-sentry,
   xpano).
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.riotinto.com/en/news
+    type: Blog
+  - url: https://www.riotinto.com/en/news/feed/
+    type: BlogRSS
   - type: DomainSecurity
     url: security/rio-tinto-domain-security.yml
   - type: LinkedIn

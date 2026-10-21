@@ -1,0 +1,46 @@
+generated: '2026-10-20'
+method: searched
+source:
+- https://zapier.com/apps/rio-tinto/integrations
+- https://n8n.io/integrations/rio-tinto/
+- https://composio.dev/toolkits/rio-tinto
+- https://monid.ai/tools/rio-tinto
+checked:
+- https://composio.dev/toolkits/rio-tinto
+- https://monid.ai/tools/rio-tinto
+- https://n8n.io/integrations/rio-tinto/
+- https://zapier.com/apps/rio-tinto/integrations
+- https://pidx.org/current-members/
+- https://reports.opengroup.org/energistics.shtml
+- https://reports.opengroup.org/osdu_forum.shtml
+- https://www.energistics.org/witsml-v131-certified-products
+- https://www.energistics.org/witsml-v1411-certified-products
+- https://www.icmm.com/our-members
+summary: null
+marketplace_apps: []
+edges:
+- partner_name: ICMM (International Council on Mining and Metals)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.icmm.com/en-gb/our-story/our-members/company-members/rio-tinto
+  category: mining industry council membership
+  contract_reference:
+    register: ICMM company members (icmm.com/our-members)
+    standard: ICMM Mining Principles (performance expectations)
+    spec_file: null
+    role: icmm-member
+    registered_name: Rio Tinto
+    register_id: https://www.icmm.com/en-gb/our-story/our-members/company-members/rio-tinto
+    matched_domain: riotinto.com
+    matched_by: domain
+    signal_note: 'participation only: company membership commits to the ICMM Mining Principles; third-party assurance
+      of those commitments is not published as a register and is not read'
+    detected_by: sweep-energy-subsurface.py
+    detected: '2026-10-20'
+  detected_by: sweep-energy-subsurface.py
+  first_seen: '2026-10-20'
+templates: []

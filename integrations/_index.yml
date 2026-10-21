@@ -27,3 +27,27 @@
     detected: '2026-10-20'
   status: not-a-workflow
   arazzo: null
+- slug: rio-tinto-global-battery-alliance
+  label: Global Battery Alliance
+  partner_name: Global Battery Alliance
+  category: battery value chain alliance membership
+  type: register
+  channel: standard-directory
+  evidence: https://www.globalbattery.org/about/members/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Global Battery Alliance members (globalbattery.org/about/members/)
+    standard: GBA Battery Passport / sustainable battery value chain
+    spec_file: null
+    role: gba-member
+    registered_name: Rio Tinto
+    matched_domain: riotinto.com
+    matched_by: domain
+    signal_note: 'participation only: membership of the battery value-chain alliance (names only)'
+    detected_by: sweep-electronics-recycling-circular.py
+    detected: '2026-10-21'
+    identity: wikidata Q821293 'Rio Tinto Group' P856 https://www.riotinto.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  status: not-a-workflow
+  arazzo: null

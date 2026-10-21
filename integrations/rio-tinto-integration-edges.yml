@@ -16,6 +16,15 @@ checked:
 - https://www.energistics.org/witsml-v131-certified-products
 - https://www.energistics.org/witsml-v1411-certified-products
 - https://www.icmm.com/our-members
+- https://batterynetwork.org/stewards/compliant-stewards/
+- https://e-stewards.org/find-a-recycler/
+- https://sustainableelectronics.org/find-an-r2-certified-facility/
+- https://thebatterypass.eu/battery-pass-ready/
+- https://www.call2recycle.org/
+- https://www.ellenmacarthurfoundation.org/network/members
+- https://www.ellenmacarthurfoundation.org/network/who-is-in-the-network
+- https://www.globalbattery.org/about/members/
+- https://www.globalbattery.org/members/
 summary: null
 marketplace_apps: []
 edges:
@@ -43,4 +52,28 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-energy-subsurface.py
   first_seen: '2026-10-20'
+- partner_name: Global Battery Alliance
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.globalbattery.org/about/members/
+  category: battery value chain alliance membership
+  contract_reference:
+    register: Global Battery Alliance members (globalbattery.org/about/members/)
+    standard: GBA Battery Passport / sustainable battery value chain
+    spec_file: null
+    role: gba-member
+    registered_name: Rio Tinto
+    matched_domain: riotinto.com
+    matched_by: domain
+    signal_note: 'participation only: membership of the battery value-chain alliance (names only)'
+    detected_by: sweep-electronics-recycling-circular.py
+    detected: '2026-10-21'
+    identity: wikidata Q821293 'Rio Tinto Group' P856 https://www.riotinto.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-electronics-recycling-circular.py
+  first_seen: '2026-10-21'
 templates: []

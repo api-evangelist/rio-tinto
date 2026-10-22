@@ -1,0 +1,27 @@
+name: Rio Tinto MCP Server
+type: MCPServer
+generated: '2026-10-20'
+method: none
+status: none
+description: >-
+  Checked for an official Rio Tinto MCP server and found none. Rio Tinto
+  publishes no public developer API or OpenAPI contract, so no candidate tool
+  list could be derived either.
+evidence:
+  - url: https://www.riotinto.com/.well-known/mcp.json
+    status: 404
+  - url: https://www.riotinto.com/.well-known/mcp/server-card.json
+    status: 404
+  - note: >-
+      Web search (2026-10-20) for a Rio Tinto MCP server / developer API returned
+      only unrelated results (Riot Games MCP servers). Preflight contract
+      discovery on api.riotinto.com and www.riotinto.com found no MCP, OpenAPI,
+      AsyncAPI or GraphQL surface.
+tools: []
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: unknown
+  verified: searched

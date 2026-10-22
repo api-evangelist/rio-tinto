@@ -1,0 +1,103 @@
+generated: '2026-10-20'
+method: searched
+source:
+  - https://www.riotinto.com/en/utility/privacy-cookies
+  - https://www.riotinto.com/en/utility/accessibility
+scope: >-
+  Rio Tinto publishes no developer API; this posture is read from its corporate External Privacy
+  Statement (Version 3.0, effective 06 October 2026) and its website Accessibility page.
+  The Terms and conditions page (https://www.riotinto.com/en/utility/terms-conditions, HTTP 200) was
+  also read and speaks to none of these signals.
+signals:
+  data_subject_request:
+    url: https://www.riotinto.com/en/utility/privacy-cookies
+    section: Your rights and how to exercise them
+    note: >-
+      Lists access, correction, deletion, restriction, objection, portability-style ("reasonable format"),
+      consent withdrawal and automated-decision review rights, all qualified by applicable law; requests
+      go to aske&c@riotinto.com, with identity verification and response within the legally required period.
+      UK complaints are acknowledged within 30 days.
+    evidence:
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: Depending on where you live, where you interact with Rio Tinto, and subject to applicable laws, you may have rights in relation to your personal data. These rights are not absolute, and exceptions may apply.
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: receive personal data you have provided to us in a reasonable format, where applicable;
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: We will respond to requests within the period required by applicable law. Where permitted, we may extend the response period where a request is particularly complex or involves a large volume of information, and will notify you where required.
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: We will acknowledge receipt of your complaint within 30 days of receiving it.
+  data_retention:
+    url: https://www.riotinto.com/en/utility/privacy-cookies
+    section: How long we keep your data
+    note: Purpose-bound retention with no fixed periods stated; data is deleted, de-identified or archived when no longer needed.
+    evidence:
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: We keep personal data only for as long as we need it for the purposes described in this statement, or for as long as we are required or permitted to keep it by law.
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: Where we no longer need personal data, we will delete it, de-identify it, or securely archive it where retention is required or permitted by applicable law and Rio Tinto retention requirements.
+  ai_transparency:
+    url: https://www.riotinto.com/en/utility/privacy-cookies
+    section: AI-assisted tools, profiling and automated decision-making
+    note: >-
+      Discloses use of AI-assisted tools, automated processes and profiling (including in-vehicle AI safety
+      systems) and commits to assessing materially influential processes, including human review and override.
+    evidence:
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: We may use AI-assisted tools, automated processes, data analytics or profiling to support some of the purposes described in this statement.
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: Where an AI-assisted tool, automated process, data analytics process or profiling materially influences a decision or action that may significantly affect you, Rio Tinto will assess the process by reference to its practical effect, including whether human review and override are available in practice.
+  data_residency:
+    url: https://www.riotinto.com/en/utility/privacy-cookies
+    section: International transfers
+    note: >-
+      No residency commitment: data may be stored or accessed outside the person's home jurisdiction, with
+      transfers relying on standard contractual clauses, adequacy or other lawful bases.
+    evidence:
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: Rio Tinto operates globally, so your personal data may be transferred to, stored in, or accessed from countries outside your home jurisdiction.
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: the transfer is subject to appropriate safeguards, such as standard contractual clauses or other contractual, technical and organisational protections;
+  subprocessors:
+    url: https://www.riotinto.com/en/utility/privacy-cookies
+    section: Who we share your data with
+    note: Service providers are described by category only; no named subprocessor list is published.
+    evidence:
+      - source: https://www.riotinto.com/en/utility/privacy-cookies
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: Where Rio Tinto uses service providers to process personal data on our behalf, those service providers act as processors or service providers, depending on the laws that apply.
+  accessibility_conformance:
+    url: https://www.riotinto.com/en/utility/accessibility
+    section: Commitment to accessibility
+    note: >-
+      A general commitment referencing the DDA 1995, W3C WAI and Section 508; no WCAG version or conformance
+      level is claimed.
+    evidence:
+      - source: https://www.riotinto.com/en/utility/accessibility
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: We will continue to review, test and modify our website for usability and accessibility issues and aim to ensure maintaining compliance is part of our ongoing commitment.
+      - source: https://www.riotinto.com/en/utility/accessibility
+        http_status: 200
+        fetched: '2026-10-20'
+        quote: We aim to achieve and maintain optimum accessibility by regularly carrying out a combination of both expert reviews and 'real' user testing.

@@ -1,0 +1,10 @@
+generated: '2026-10-20'
+method: none
+name: Rio Tinto packages
+note: >-
+  Checked, nothing there. Rio Tinto publishes no developer API and no
+  first-party client library. Registry probes on 2026-10-20 -- npm
+  registry.npmjs.org/rio-tinto 404, /riotinto 404; PyPI pypi.org/pypi/rio-tinto/json 404,
+  /riotinto/json 404. A web search for Rio Tinto developer API/SDK documentation
+  returned only unrelated vendors.
+packages: []

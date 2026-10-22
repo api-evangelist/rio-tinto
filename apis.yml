@@ -1,7 +1,11 @@
 aid: rio-tinto
+
 url: https://raw.githubusercontent.com/api-evangelist/rio-tinto/refs/heads/main/apis.yml
+
 name: Rio Tinto
+
 type: Index
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -13,6 +17,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -24,12 +29,19 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rio-tinto.png
+
 tags:
   - Mining
   - Metals
   - Resources
   - Critical Minerals
+  - Iron Ore
+  - Copper
+  - Aluminium
+  - Supply Chain
+
 description: >-
   Rio Tinto is a British-Australian multinational mining and metals
   corporation and one of the world's largest producers of iron ore, aluminum,
@@ -38,11 +50,22 @@ description: >-
   transactional platform) and a START traceability program. Its GitHub
   presence is limited to a small number of internal forks (ai-sentry,
   xpano).
+
 created: '2026-05-05'
-modified: '2026-10-06'
+
+modified: '2026-10-20'
+
 specificationVersion: '0.23'
-apis: []
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
 common:
+  - type: Hosts
+    url: hosts/rio-tinto-hosts.yml
+  - type: Vendors
+    url: vendors/rio-tinto-vendors.yml
   - url: https://www.riotinto.com/en/news
     type: Blog
   - url: https://www.riotinto.com/en/news/feed/
@@ -56,7 +79,17 @@ common:
   - type: GitHubOrg
     url: https://github.com/rio-tinto
   - type: SupplierPortal
-    url: https://www.riotinto.com/suppliers
+    url: https://www.riotinto.com/en/about/suppliers/supplier-portals
+  - type: Support
+    url: https://www.riotinto.com/en/utility/contact
+  - type: Careers
+    url: https://www.riotinto.com/en/careers
+  - type: InvestorRelations
+    url: https://www.riotinto.com/en/invest
+  - type: TermsOfService
+    url: https://www.riotinto.com/en/utility/terms-conditions
+  - type: PrivacyPolicy
+    url: https://www.riotinto.com/en/utility/privacy-cookies
   - type: Vocabulary
     url: vocabulary/rio-tinto-vocabulary.yml
   - type: Features
@@ -77,6 +110,25 @@ common:
         description: Rio Tinto maintains supplier master data and transactional portals
       - name: Responsible Sourcing
         description: START provides end-to-end traceability of materials from mine to product
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website riotinto.com verified (title "Rio Tinto | Global"); no public developer API, docs or portal published. Old /suppliers pointer redirected to a 404 page and was replaced with the supplier-portals page.
+  evidence:
+    - url: https://www.riotinto.com/
+      status: 200
+    - url: https://www.riotinto.com/suppliers
+      status: 404
+    - url: https://www.riotinto.com/en/about/suppliers/supplier-portals
+      status: 200
+    - url: https://www.riotinto.com/en/utility/contact
+      status: 200
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 53
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

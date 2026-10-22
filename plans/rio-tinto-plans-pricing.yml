@@ -1,0 +1,12 @@
+generated: '2026-10-20'
+method: none
+name: Rio Tinto pricing
+audience: unclear
+pricing_basis: none
+published: false
+plan_count: 0
+note: >-
+  Rio Tinto is a mining and metals company with no public developer API, so
+  there are no API plans or pricing pages. No documentation host is known
+  (preflight docs_platform: no-docs-host).
+plans: []
